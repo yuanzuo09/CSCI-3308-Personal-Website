@@ -1,0 +1,65 @@
+/* General page styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #99b6d4;
+}
+
+/* Primary heading */
+h1 {
+  color: #1f4e79;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Section headings */
+h3 {
+  color: #2c3e50;
+  margin-top: 2rem;
+}
+
+/* Navigation*/
+nav {
+  background-color: #718ca4;
+  padding: 1rem;
+}
+
+.bg-blue {
+    background-color: #1f4e79;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+a:hover {
+  text-decoration: underline;
+  
+}
+
+/* Hobby and project cards */
+.hobby-card {
+  background-color: white;
+  margin: 1rem;
+  padding: 1.5rem;
+  border: 3px solid #1f4e79;
+  border-radius: 20px;
+}
+.project-card{
+  background-color: white;
+  margin: 1rem;
+  padding: 1.5rem;
+  border: 3px solid #1f4e79;
+  border-radius: 20px;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  color: #666666;
+}

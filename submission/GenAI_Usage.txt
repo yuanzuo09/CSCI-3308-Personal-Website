@@ -1,0 +1,24 @@
+1. AI tool: ChatGPT free version
+2. Prompt: can you recommend a good color theme using bootstrap by providing a css file for a personal website
+3. Suggestion: The suggestion is pasted into the aistyles.css file
+4. Evaluation: 
+    * What did the AI produce correctly?
+        - The AI produced a professional looking navy blue and teal themed website
+    * What part did you need to change?
+        - I needed to make three changes to fix the bugs introduced by the new css file.
+            The changes are marked by Fix #: comments in the aistyles.css file
+        - In summary, 
+            > I removed the large spacing between sections
+            > Made the navagation bar drop down menu coloring consistent with the overall theme
+            > I made the footer always appear at the bottom of the screen
+
+    * How did you verify that the code worked?
+        - I loaded the html pages in my browser window and went through every pages
+
+    * Choose one line of generated code and explain it in your own words.
+        - .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(15, 23, 42, 0.1);
+        }
+        - This line adds a feature that I liked the most, because it makes the card feel interactive when users hover over it.
+            > Specifically, it moves the card up by 5px and adds a shadow under it to make it feel like it floated above the surface.
